@@ -1,10 +1,11 @@
+import '../../App.css';
 
 function HelloWordDio(){
 
     return(
 
         <div>
-            <p>
+            <p className='p1'>
                 Salve Galera da Dio!
             </p>
         </div>

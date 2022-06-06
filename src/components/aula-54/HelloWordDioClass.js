@@ -1,4 +1,5 @@
 import React from 'react'; // Para criar componente de Class
+import '../../App.css';
 
 class HelloWordDioClass extends React.Component {
 
@@ -7,10 +8,10 @@ class HelloWordDioClass extends React.Component {
         super(props);
     }
 
-    render(){
+    render(){ // Necessario o metodo render para ser renderizado na tela quando for class.
         return (
             <div>
-                <p>
+                <p className='p2'>
                     Criando primeira Class!
                 </p>
             </div>

@@ -5,7 +5,7 @@ function Hello(){
     return(
 
         <>
-          <h1 classeName="Hello">
+          <h1>
               Hello Word!
           </h1>
           <p>
